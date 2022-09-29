@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+.food-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff ;
+    margin-left: 40px;
+}
+.cart-container{
+    width: 320px;
+    height: 500px;
+    margin-top: 35px;
+    text-align: center;
+}
+.cart-container .img-food{
+    width: 100%;
+    height: 280px;
+}
+.cart-container .img-food:hover{
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+.cart-container .name-food a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    letter-spacing: 0;
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s ease-in-out;
+    font-family: 'Sora', sans-serif;
+}
+.cart-container .name-food a:hover{
+    color: #f47d02;
+}
+.cart-container .des-food{
+    font-size: 12px;
+    margin-top: 8px;
+    letter-spacing: .075rem;
+    height: 36px;
+    color: #00000085;
+    font-family: 'Sora', sans-serif;
+}
+.cart-container .price-food{
+    font-size: 22px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: #f47d02;
+}
+.cart-container .btn-add{
+    width: 100%;
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f47d02;
+    margin-top: 7px;
+}
+.cart-container .icon-shopping{
+    font-size: 32px;
+    color: #fff;
+}
+.cart-container .btn-add-disabled{
+    background-color: #888;
+    width: 100%;
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+}
+.cart-container .icon-shopping-disabled{
+    font-size: 32px;
+    color: #333;
+}
